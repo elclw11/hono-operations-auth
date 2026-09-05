@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "tsx src/server.ts",
+    "session:mint": "tsx tools/mint-operations-session.ts",
     "test": "tsx --test tests/*.test.ts",
     "typecheck": "tsc --noEmit",
     "check": "npm run typecheck && npm test"
@@ -21,4 +22,3 @@
     "typescript": "7.0.2"
   }
 }
-
